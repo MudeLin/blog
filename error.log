@@ -1,0 +1,13 @@
+[Tue May 20 2014 16:09:42 GMT+0800 (HKT)]/
+TypeError: Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/home/tans/shizhan/blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:32:1260)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/tans/shizhan/blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:32:58)
+    at eval (eval at <anonymous> (/home/tans/shizhan/blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:36:37)
+    at /home/tans/shizhan/blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/home/tans/shizhan/blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/home/tans/shizhan/blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/home/tans/shizhan/blog/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/tans/shizhan/blog/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/tans/shizhan/blog/node_modules/express/lib/response.js:801:7)
